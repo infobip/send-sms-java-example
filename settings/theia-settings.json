@@ -1,4 +1,5 @@
 {
+    "java.home": "/home/codeany/.sdkman/candidates/java/current",
     "java.jdt.ls.vmargs": "-noverify -Xmx1G -XX:+UseG1GC -XX:+UseStringDeduplication -javaagent:\"/tmp/vscode-unpacked/GabrielBB.vscode-lombok-1.0.1.vsix/extension/server/lombok.jar\"",
     "java.configuration.checkProjectSettingsExclusions": true,
     "files.exclude": {
