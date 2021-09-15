@@ -3,6 +3,8 @@ LABEL key="Infobip"
 
 USER codeany
 
+RUN mkdir /home/codeany/project
+
 # Custom Plugins
 COPY --chown=codeany:codeany plugins/GabrielBB.vscode-lombok-1.0.1.vsix /theia/plugins/GabrielBB.vscode-lombok-1.0.1.vsix
 
